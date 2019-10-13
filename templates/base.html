@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <h1>Jessica's Rad Signup</h1>
+        <form action='/signup' method='post'>
+            <table>
+                <th>Enter Username: </th>
+                <td>
+                    <input name="username" type="text" value = "{{username}}">
+                </td><br>
+                <tr></tr>
+                <th>Enter Password: </th>
+                <td>
+                   <input name="password" type="text" value="{{password}}"> 
+                </td><br>
+                <tr></tr>
+                <th>Verify Password: </th>
+                <td>
+                    <input name="verify_password" type="text" value="{{verify_password}}">
+                </td><br>
+                <tr></tr>
+                <th>Enter Email (optional): </th>
+                <td>
+                    <input name = "email" type="text" value="{{email}}">
+                </td>
+
+            </table>
+            <input type="submit"></input>
+    </form>
+</body>
+
+</html>
